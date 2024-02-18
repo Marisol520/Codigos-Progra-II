@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Conversores</string>
+=======
+    <string name="app_name">Calculator2</string>
+>>>>>>> bc4dab150d04ee30d1283afda24b6b9a1850a90b
 </resources>

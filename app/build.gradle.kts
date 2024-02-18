@@ -3,12 +3,21 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.conversores"
     compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.conversores"
         minSdk = 24
+=======
+    namespace = "com.example.calculator2"
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "com.example.calculator2"
+        minSdk = 31
+>>>>>>> bc4dab150d04ee30d1283afda24b6b9a1850a90b
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -34,7 +43,11 @@ android {
 dependencies {
 
     implementation("androidx.appcompat:appcompat:1.6.1")
+<<<<<<< HEAD
     implementation("com.google.android.material:material:1.11.0")
+=======
+    implementation("com.google.android.material:material:1.9.0")
+>>>>>>> bc4dab150d04ee30d1283afda24b6b9a1850a90b
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
